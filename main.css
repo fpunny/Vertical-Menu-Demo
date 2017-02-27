@@ -1,0 +1,103 @@
+/*https://coolors.co/222222-bbcea8-595358-ffffff-546a76*/
+
+body, html, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+nav {
+    left: -260px;
+    transition: left 0.4s ease-in-out 0s;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+
+.default {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.float {
+    height: 100%;
+    margin: 10px;
+}
+
+.bar {
+    background-color: white;
+    width: 28px;
+    margin: 5px;
+    height: 5px;
+}
+
+.icon {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.sub-menu {
+    flex-direction: column;
+    overflow: hidden;
+    transition: max-height 0.4s linear 0s;
+    max-height: 0px;
+}
+
+.drop:hover + .sub-menu {
+    max-height: 140px;
+}
+
+.sub-menu:hover {
+    max-height: 140px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s linear 0s;
+}
+
+.menu a:hover {
+    background-color: #546A76;
+}
+
+.menu li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    flex-direction: column;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav {
+    flex-direction: column;
+    background-color: #222222;
+    width: 260px;
+    height: 100vh;
+}
+
+.foot p {
+    font-size: 10px;
+    padding: 1px 13px;
+}
