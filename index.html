@@ -6,14 +6,14 @@
         <meta name='author' content='Frederic Pun'>
         <meta name="viewport" content="width=device-width, initial-scale=0.8">
         <link rel='stylesheet' type='text/css' href='main.css'>
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:800|Playfair+Display" rel="stylesheet">
     </head>
     <body>
-    <nav id='menu' class='default' style='position: absolute;'>
+    <nav id='menu' class='default' style='position: fixed; z-index: 99;'>
         <div class='default nav'>
             <div class='default' style='justify-content: center; align-items: center; flex-direction: column;'>
                 <div class='icon' style='background-image: url("source/icon.jpg");'></div>
-                <h3 class='default' style='color: white; font-size: 25px;'>Banana Inc.</h3>
+                <h3 class='default title' style='color: white; font-size: 25px;'>Banana Inc.</h3>
                 <hr width='84%' style='margin: 6px;'>
             </div>
             <ul class='default menu'>
@@ -43,7 +43,13 @@
             <div class='bar'></div>
         </div>
     </nav>
-    <section class='default background' style='height: 100vh; background-image: url("source/home.jpg")'>
+    <section class='default background' style='height: 100vh; background-image: url("source/home.jpg");'>
+        <div id='home' class='container' style='position: relative;'>
+            <h1 class='default' style='font-size: 7vw; line-height: 80px; letter-spacing: -6px;'>DREAM THE DREAM</h1>
+            <h3 class='default' style='font-size: 3vw; letter-spacing: -2px;'>of bananas and alike</h3>
+        </div>
+    </section>
+    <section class='default background' style='height: 100vh; background-color: white;'>
     </section>
     <script type='text/javascript' src='javascript.js'></script>
     </body>
